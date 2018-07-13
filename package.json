@@ -1,5 +1,5 @@
 {
-  "name": "verdaccio-bitbucket",
+  "name": "@nubix/verdaccio-bitbucket",
   "author": {
     "name": "Idan Gozlan",
     "email": "idangozlan@gmail.com"
@@ -10,7 +10,6 @@
     "lint": "eslint ./src --fix",
     "prebuild": "npm run clean:build",
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
     "test": "npm run build && mocha"
   },
   "main": "lib/index.js",
