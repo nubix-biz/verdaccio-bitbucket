@@ -35,7 +35,7 @@ function Auth(config, stuff) {
   }
 
   this.allow = parseAllow(config.allow);
-  this.defaultMailDomain = config.defaultMailDomain
+  this.defaultMailDomain = config.defaultMailDomain;
   this.ttl = (config.ttl || cache.CACHE_TTL) * 1000;
   this.Bitbucket2 = Bitbucket2;
   this.logger = stuff.logger;
